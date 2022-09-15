@@ -1,0 +1,15 @@
+.day {
+    height: 2em;
+    width: 2em;
+    background: rgb(162, 194, 162);
+    border: solid blue 1px;
+}
+
+#schedule {
+    margin: 0 auto;
+    max-width: 80%;
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr) ;
+    grid-template-rows: repeat(4,1fr);
+}
